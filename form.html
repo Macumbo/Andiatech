@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Your details:</legend>
+                <laber for="name">Name:</laber>
+                <input type="text" placeholder="Your name" id="name" name="name"/><br>
+                <label for="email">Email:</label>
+                <input type="email" required id="email" name="email" placeholder="example@email.com"/>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Your Review:</legend>
+                <label for="reference">How did you hear about us?</label>
+                <select id="reference" name="referal">
+                    <option value="Google">Google</option>
+                    <option value="fb" selected>Facebook</option>
+                    <option value="inst">Instagram</option>
+                    <option value="adv">Advertisement</option>
+                    <option value="fd">Friend</option>
+                    <option value="oth">Other</option>
+                </select>
+                
+                <p>Would you visit again? <br>
+                    <input type="radio" id="visit" name="visit" value="Yes" required>
+                    <label for="visit">Yes</label>
+                    <input type="radio" id="visit" name="visit" value="No">
+                    <label for="visit">No</label>                    <input type="radio" id="visit" name="visit" value="Maybe">
+                    <label for="visit">Maybe</label>
+                </p>
+                Coments:<br>
+                <textarea name="comments"></textarea>
+                <br><br>
+                    <input type="checkbox" value="yes" name="sgnup" checked> Sign me up for emails update <br>
+                    <input type="submit" value="Submit review">
+            </fieldset>
+        </form>
+    </body>
+</html>

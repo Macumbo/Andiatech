@@ -1,0 +1,30 @@
+header {
+    height: 70px;
+    width: 100%;
+}
+
+header ul{
+    list-style-type: none;
+    float: right;
+}
+
+header li {
+    text-decoration: none;
+    display: inline-block;
+    border-right: 2px solid rgba(21,21,21,0.1);
+    padding: 10px 5px 10px 0;
+}
+
+header li:last-child {
+    border-right: none;
+    padding-right: 0px;
+}
+
+header a{
+    text-decoration: none;
+    color: #ac498b;
+}
+
+header img {
+    height: 100%;
+}

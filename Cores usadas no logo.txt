@@ -1,0 +1,3 @@
+Blue: #3c2b97
+Black: #151515
+Pink: #ac498b
